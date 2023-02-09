@@ -142,8 +142,8 @@ class _AddProductScreenState extends State<AddProductScreen> {
                             borderRadius: BorderRadius.circular(20)
                         ),
                         border: InputBorder.none,
-                        label: Text("Product Name"),
-                        hintText: 'Enter product name',
+                        label: Text("Property Name"),
+                        hintText: 'Enter property Name',
                       ),
                     ),
                     SizedBox(height: 10,),
@@ -159,8 +159,8 @@ class _AddProductScreenState extends State<AddProductScreen> {
                             borderRadius: BorderRadius.circular(20)
                         ),
                         border: InputBorder.none,
-                        label: Text("Product Price"),
-                        hintText: 'Enter product price',
+                        label: Text("Property Price"),
+                        hintText: 'Enter property price',
                       ),
                     ),
                     SizedBox(height: 10,),
@@ -177,8 +177,8 @@ class _AddProductScreenState extends State<AddProductScreen> {
                             borderRadius: BorderRadius.circular(20)
                         ),
                         border: InputBorder.none,
-                        label: Text("Product Description"),
-                        hintText: 'Enter product description',
+                        label: Text("About Property"),
+                        hintText: 'Enter property description',
                       ),
                     ),
                     SizedBox(height: 15,),

@@ -115,7 +115,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black54,
-        title: Text("Add a product"),
+        title: Text("Add a Property"),
       ),
       body: Consumer<CategoryViewModel>(
           builder: (context, categoryVM, child) {

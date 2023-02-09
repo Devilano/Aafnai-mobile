@@ -59,7 +59,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.favorite),
-              label:"Favorite"
+              label:"Property"
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.person),

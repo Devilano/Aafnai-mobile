@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text("Welcome To Afnai Property",style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
+                  Text("Afnai Property",style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
                 ],
               ),
             ),

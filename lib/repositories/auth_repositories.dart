@@ -14,6 +14,7 @@ class AuthRepository{
   );
   Future<UserCredential?> register(UserModel user) async {
     try {
+      print(user.toJson());
       final response = await userRef
           .where("username", isEqualTo: user.username!).get();
       if (response.size != 0) {
